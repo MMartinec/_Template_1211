@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MyProjectListPage</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="jquery-ui-1.10.4.custom/css/sunny/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<body>
+<div class="content"><!--begin content-->
+  <img src="images/logosliced_01.png" width="305" height="309" alt="logo">
+  <div id="otherlinks">
+  <ul>
+  <li><input type="button" value="Home" onClick="window.location.href='index.html'"></li>
+  <li><input type="button" value="New Project" onClick="window.location.href='myNewProjectPage.html'"></li>
+  <li><input type="button" value="New Task" onClick="window.location.href='myNewTaskPage.html'"></li>
+  </ul>
+  <div class = "newprojlogout"><input name="logOut" type="button" id="logOut" value="Sign Out"/></div>
+  </div>
+<div id="accordion">
+  <div class="group">
+<h3>Project One</h3>
+<div>
+<p>Project Name</p>
+<p>Project Name: <input type="text" id="projName" placeholder="enter Project Name"></p>
+<p>Project Description</p>
+	<textarea name="Text1" id="projDesc"placeholder="enter your description" cols="40" rows="5" ... ></textarea>
+    <p>Project Status: <input type="text" id="status" placeholder="High priority"></p>
+    <p>Due Date: <input type="text" id="dateOne"></p>
+    <div class="updatebutton"><input name="updatebtn" type="button" id="updatebtn" value="update"/></div>
+</div>
+</div>
+<div class="group">
+<h3>Project Two</h3>
+<div>
+
+<p>Project Description</p>
+<textarea name="Text1" placeholder="enter your description" cols="40" rows="5" ... ></textarea>
+<p>Project Status: <input type="text" id="projstatus" placeholder="High priority"></p>
+    <p>Project Status</p>
+    <p>Due Date: <input type="text" id="dateTwo"></p>
+    <div class="updatebutton"><input name="updatebtn" type="button" id="updatebtn" value="update"/></div>
+</div>
+</div>
+<div class="group">
+<h3>Project Three</h3>
+<div>
+<p>Project Description</p>
+<textarea name="Text1" placeholder="enter your description" cols="40" rows="5" ... ></textarea>
+<p>Project Status: <input type="text" id="projstatus" placeholder="Low priority"></p>
+    <p>Project Status</p>
+    <p>Due Date: <input type="text" id="dateThree"></p>
+    <div class="updatebutton"><input name="updatebtn" type="button" id="updatebtn" value="update"/></div>
+</div>
+</div>
+<div class="group">
+<h3>Project Four</h3>
+<div>
+<p>Project Description</p>
+<textarea name="Text1" placeholder="enter your description" cols="40" rows="5" ... ></textarea>
+<p>Project Status: <input type="text" id="projstatus" placeholder="Medium priority"></p>
+    <p>Project Status</p>
+    <p>Due Date: <input type="text" id="dateFour"></p>
+    <div class="updatebutton"><input name="updatebtn" type="button" id="updatebtn" value="update"/></div>
+</div>
+</div>
+</div>
+
+
+      
+       
+</div><!--end Content-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script type="text/javascript" src="js/plugins/jsrender.min.js"></script>
+<script type="text/javascript" src="js/plugins/jquery.placeholder.min.js"></script>
+<script type="text/javascript" src="jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.min.js"></script>
+
+<!-- main -->
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

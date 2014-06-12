@@ -1,0 +1,313 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*Colors: yellow #fbb03b, dark brown #736357, light brown #c7b299*/
+body{
+	margin: 0;
+	padding: 0;
+	min-width: 960 px;
+	background-color: #736357;
+	font-family: Georgia, Geneva, sans-serif;
+	background-image: url(../images/bg.png);
+	background-repeat: repeat-y;	
+}
+.leftside h2 {
+	padding-left: 120px;
+}
+.tour h1 {
+	padding-left: 40px;
+	padding-top: 10px;
+}
+.rightside h1 {
+	color: #FFF;
+}
+.rightside h2 {
+	color: #FFFFFF;
+	padding-left: 90px;
+}
+.leftside h3 {
+	padding-left: 50px;
+	font-size: 16px;
+	color: #fbb03b;
+}
+form input {
+	background-color: #fbb03b;
+}
+.free {
+	padding-left: 15px;
+}
+.signup {
+	padding-left: 30px;
+}
+body h1, h2, h3, h4, h5, h6, p{
+	font-family: Georgia, Geneva, sans-serif;
+	
+}
+.rightside input {
+	padding-left: 170px;
+	padding-bottom: 150px;
+}
+body h1{
+	font-size: 36px;
+		
+	
+}
+
+body h2{
+	font-size:24px;
+}
+
+leftside h3{
+	font-size:18px;
+	color: #fbb03b;
+	padding-left:30px;
+}
+.log form input {
+	margin-left: 200px;
+}
+.log form .logbutton {
+	padding-bottom: 5px;
+	padding-left: 270px;
+}
+header {
+	text-indent: -10.415625%;
+	width:960px;
+		
+}
+.content{
+	margin-top: 0px;
+	width: 960px;
+	height: 1600px;
+	background-color: #FFFFFF;
+	margin-left: 240px;
+	background-image: url(../images/logosliced_01.png);
+	background-repeat: no-repeat;
+}
+
+.toptext{
+	padding-left: 340px;
+	padding-top: 130px;
+	
+	
+}
+.leftside{
+	width: 45%;
+	float:left;
+	background-color: #736357;
+	margin-left: 4%;
+	margin-top:50px;
+}
+.regleftside {
+	background-color: #FFFFFF;
+	float: left;
+	width: 40%;
+	margin-top: 310px;
+	margin-left: 4%;	
+}
+.regrightside{
+	width: 50%;
+	float: right;
+	margin-top: 50px;
+	background-color: #736357;
+	margin-right: 4%;
+}
+.regbutton {
+	padding-left: 100px;
+}
+.thankyou homebutton {
+	padding-left: 110px;
+}
+.newprojlogout {
+	padding-left: 110px;
+}
+.submitbutton {
+	padding-top: 20px;
+	padding-left: 180px;
+	padding-bottom: 20px;
+}
+.newprojbutton {
+	padding-left: 110px;
+}
+.regleftside .newpro {
+	padding-left: 50px;
+}
+.regrightside .reg form h2 {
+	padding-left: 160px;
+	color: #FFFFFF;
+}
+.registerbutton {
+	padding-left: 180px;
+	padding-bottom: 20px;
+}
+.updatebutton {
+	padding-bottom: 20px;
+	padding-left: 180px;
+}
+.reg form table {
+	margin-left: 125px;
+}
+.reg form p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	color: #FFFFFF;	
+	
+}
+
+.rightside{
+	width: 45%;
+	float:right;
+	margin-top:50px;
+	background-color: #fbb03b;
+	margin-right: 4%;
+}
+.login {
+	background-image: url(../images/loginbutton.png);
+	background-repeat: no-repeat;
+}
+form {
+	background-color: #736357;
+}
+.thankyou {
+	color: #736357;
+}
+.log {
+	padding-top: 10px;
+}
+.listleftside{
+	background-color: #FFFFFF;
+	float: left;
+	width: 30%;
+	margin-top: 310px;
+	margin-left: 4%;
+}
+.alignicons li {
+	display: inline;
+	list-style-type:none;
+}
+.alignicons {
+	float: right;
+}
+.listrightside{
+	width: 55%;
+	float:right;
+	margin-top:50px;
+	background-color: #fbb03b;
+	margin-right: 4%;
+}
+.alignrightp1 ul li {
+	display: inline-block;
+}
+.alignrightp1{
+	padding-left: 600px;
+}
+.alignrightp2 ul li {
+	display: inline-block;
+}
+.alignrightp2{
+	padding-left: 600px;
+}
+.alignrightp3 ul li {
+	display: inline-block;
+}
+.alignrightp3{
+	padding-left: 600px;
+}
+.alignrightp4 ul li {
+	display: inline-block;
+}
+.alignrightp4{
+	padding-left: 600px;
+}
+.alignrightt1 ul li {
+	display: inline-block;
+}
+.alignrightt1{
+	padding-left: 600px;
+}
+.alignrightt2 ul li {
+	display: inline-block;
+}
+.alignrightt2{
+	padding-left: 600px;
+}
+.alignrightt3 ul li {
+	display: inline-block;
+}
+.alignrightt3{
+	padding-left: 600px;
+}
+.alignrightt4 ul li {
+	display: inline-block;
+}
+.alignrightt4{
+	padding-left: 600px;
+	
+}
+.projectList{
+	max-width: 60%;
+	padding-left: 290px;
+}
+.accordlists {
+	margin-top: 240px;
+}
+.projectList h2{
+	font-size: 14px;
+	color: #FFFFFF;
+	
+}
+.group{ zoom: 1; 
+}
+
+.accordion {
+	margin: 20px 0px 20px 10px;
+	width: 600px;
+}
+.accordion div {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #c7b299;
+	margin: 0;
+	padding: 10px;
+	width: 600px;
+	top: 230px;
+}
+.accordion h3 {
+	background: none repeat scroll 0 0 #fbb03b;
+	border: 1px solid #DEDEDE;
+	color: #000000;
+	cursor: pointer;
+	font-family: Helvetica;
+	font-size: 20px;
+	margin: 0;
+	padding: 10px;
+	width: 600px;
+}
+.content #acc1 {
+	padding: 290px;
+}
+.accordion h3:hover {
+    background: none repeat scroll 0 0 #736357;
+}
+#formcontainer {
+	padding-top: 100px;
+	padding-left: 400px;
+}
+#otherlinks {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	padding-top: 20px;
+	padding-left: 300px;
+}
+otherlinks ul li{
+	display: inline;
+	padding-left: 10px;
+}
+otherlinks ul{
+	list-style-type:none;
+}
+#btnAddNewRow {
+	margin: 10px;
+}
+.regleftside .newpro {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+}

@@ -1,0 +1,110 @@
+<!doctype html>  
+
+<!--
+	This is the main index of the application
+	
+	All your script tags should be at the bottom of this file
+	
+	The only html element in the body is the container div
+	Your code should load your page templates into the container
+-->
+
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>Your Title Here</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- CSS concatenated and minified via ant build script-->
+	<!-- end CSS-->
+	
+
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="jquery-ui-1.10.4.custom/css/sunny/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="landing">
+<header>
+
+
+<p>The Plan</p>
+
+
+</header><!--end header-->
+
+<div class= "content"><!--begin content-->
+
+<div class = "toptext"><!--begin topheading-->
+<h2>Create and manage projects and tasks</h2>
+
+<div id="login">
+<form id="loginForm">
+<label> User Name:</label> <input name="signinButton"type="text"id="user"/><br>
+<label> Password:</label> <input name="signinButton"type="password"id="pass"/><br>
+<input name="signinButton"type="button"id="signinButton"value="sign in"/><br>
+
+</form>
+</div><!--end topheading-->
+</div>
+
+<div class = "leftside"><!--begin left side-->
+
+<h2>About the Plan</h2>
+<h3>Get constant updates from your teams</h3>
+<h3>Track hours by individual or by team</h3>
+<h3>Keep track of productivity</h3>
+<h3>Drag and drop projects and tasks</h3>
+<h3>Edit Account information</h3>
+<input name="logOut" type="button" id="logOut" value="Sign Out"/>
+<div class = "tour">
+<h1>Click here to take a tour</h1>
+</div>
+
+</div><!--end left side-->
+
+<div class = "rightside"><!--begin right side-->
+<h2>Not a Member Yet?</h2>
+<div class = "free"><h2>The Plan is free!</h2></div>
+<div class = "signup"><h4>Sign up and organize your life</h4></div>
+<div class ="regbutton"><a href="MyRegistrationPage.html">
+  <Button>Register Here</Button>
+</a></div>
+</div><!--end right side-->
+
+</div><!--end content-->
+	<!-- Parent container for the page, load your core templates into this div -->
+<div id="container">
+</div>
+	
+	
+	<!-- jquery -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+
+	<!-- plugins -->
+	<script type="text/javascript" src="js/plugins/jsrender.min.js"></script>
+	<script type="text/javascript" src="js/plugins/jquery.placeholder.min.js"></script>
+	<script type="text/javascript" src="jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.js"></script>
+	<!-- main -->
+	<script type="text/javascript" src="js/main.js"></script>
+    
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
